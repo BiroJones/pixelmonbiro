@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+  <title> Sobre </title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+</head>
+<body>
+      <header>
+    <div class="inner-width">
+      <a href="index.html" class="logo"><img src="logo.png" alt=""></a>
+      <i class="menu-toggle-btn fas fa-bars"></i>
+      <nav class="navigation-menu">
+        <a href="index.html"><i class="fas fa-home home"></i> Home</a>
+      </nav>
+    </div>
+  </header>
+    
+  <div class="box">
+    <img src="sidoka.jpg" alt="" class="box-img">
+    <h1>
+    Nicolas Paolinelli</h1>
+  <h5>
+    Rapper e compositor brasileiro</h5>
+  <p>
+    <br> O artista é considerado um expoente do trap (subgênero do rap/hip-hop) no Brasil, tendo ganhado o prêmio MTV Millenial Awards 2021 (Brasil) na categoria "Trap na cena" e participado do documentário "Música pelo Brasil: Trap.</p>
+  <ul>
+  <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+  <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+  <li><a href="#"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a></li>
+  </ul>
+  </div>
+
+  <script type="text/javascript">
+    $(".menu-toggle-btn").click(function(){
+      $(this).toggleClass("fa-times");
+      $(".navigation-menu").toggleClass("active");
+    });
+  </script>
+</body>
+</html>
